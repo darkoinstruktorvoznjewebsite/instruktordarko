@@ -753,3 +753,84 @@ margin-left: -30px;
 
 
 }
+
+@media (max-width:370px){
+    footer p:nth-child(2){
+        color: white;
+    
+    font-size: 10px;
+    width: 500px;
+    display: inline-block;
+    text-align: center;
+    line-height: 26px;
+    }
+    .social{
+        padding-bottom: 40px;
+    }
+    #kontaktsekcija{
+        text-align: center;
+        font-size: 10px;
+     
+    }
+    #pricing{
+       width: 500px;
+    text-align: center;
+       
+       justify-content: space-around;
+       flex-direction: column;
+       
+      }
+      .title h2{
+        color: white;
+        font-size: 15px;
+       width: 420px;
+        margin:30px auto;
+        text-align: center;
+    
+    }
+    .box{
+        width: 300px;
+        margin-left: 10px;
+        right: 100px;
+        flex-direction: column;
+        padding-bottom: 70px;
+    }
+    .about-text h2{
+        font-size: 55px;
+        display: inline-block;
+        margin-left: 20px;
+    }
+    .about-text h5{
+        display: inline-block;
+        margin-left: 20px;
+
+    }
+    .about-text p{
+        display: inline-flex;
+        margin-left: 20px;
+
+    }
+    .about img{
+        margin-bottom: -1000px;
+       
+    }
+ .logo {
+font-size: 30px;
+margin-top: 10px;
+margin-left: 5px;
+    }
+    .logo2{
+        font-size: 15px;
+        margin-left: 30px; ;
+        margin-top:-30px ;
+    }
+
+#googlemapa{
+    width:1130px;
+    margin: left 20px;;
+}
+ul features{
+    width:200px;
+    display: flex;
+}
+}
